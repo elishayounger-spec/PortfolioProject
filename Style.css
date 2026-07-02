@@ -9,11 +9,17 @@ nav li {
 }
 
 nav { 
-    background-color: aquamarine;
+    background-color: gold;
     padding: 15px 20px ;
     text-align: left; 
     border-radius: 16px;
     width:fit-content;
+    position: sticky;
+    top: 0;
+    left: 10;
+
+    
+    
 }
 
 nav a {
@@ -36,8 +42,74 @@ nav a:hover {
     right: 0;
     text-align : right;
     color: black;
-    background-color: aquamarine; 
+    background-color:gold; 
     padding: 10px 15px;
     border-radius: 13px;
     width:fit-content;
+}
+
+h1{
+    color: gold;
+}
+
+h2{
+    color: gold;
+}
+
+h3{
+    color: gold;
+}
+
+h4{
+    color:gold;
+}
+
+li{
+    color:gold;
+}
+
+body{
+ background-color: black;
+}
+
+#container1{
+    background-color: black;
+    margin: 20px 20px;
+    width: 300px;
+    height: fit-content;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+border: 5px solid gold;
+}
+   
+#container2{
+    background-color: black;
+    margin: 20px 20px;
+    width: 300px;
+    height: fit-content;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid gold;
+}
+
+#container3{
+    background-color: black;
+    margin: 20px 20px;
+    width: 300px;
+    height: fit-content;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid gold;    
+}
+
+h2{
+    text-decoration: underline;
+}
+img{
+    max-height: 450px;
+    max-width: 450px;
+    border-radius: 16px
 }
