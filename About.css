@@ -1,0 +1,32 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:#0B1325;
+  position: fixed;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  border-radius:10px;
+  z-index: 1000;
+}
+
+nav ul li {
+  float: right;
+  text-decoration: none;
+  color: #C59B73;
+}
+
+nav ul li a {
+  display: block;
+  color: #C59B73;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color:#C59B73 ;
+    border-radius: 10px ;
+    color:#0B1325 ;
+}
